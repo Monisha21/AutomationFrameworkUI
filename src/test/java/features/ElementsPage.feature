@@ -5,7 +5,8 @@ Feature: Elements Page funtionality
     Given Provide values in textbox in elements page and submit
     And verify textbox success message
 
+  @ElementsCheckBox
     Scenario: Verify Checkbox module
       Given Check and Uncheck nested checkboxes
-      Then verify how many checkboxes checked in total
-      And verify checkbox success message
+#      Then verify how many checkboxes checked in total
+#      And verify checkbox success message

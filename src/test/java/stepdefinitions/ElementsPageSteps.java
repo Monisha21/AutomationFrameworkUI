@@ -30,7 +30,6 @@ public class ElementsPageSteps{
     @Given("Check and Uncheck nested checkboxes")
     public void inputCheckBox(){
         elementsPage.elementsPageNavigation();
-
-
+        elementsPage.checkBoxLink();
     }
 }
